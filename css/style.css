@@ -1,0 +1,289 @@
+/****************************/
+/* SECTION-HERO */
+/***************************/
+
+.hero-section {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.head {
+  width: 40%;
+}
+
+.we {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+  color: #f4ae40;
+  margin-bottom: 4.8rem;
+}
+
+.text-box {
+  width: 25%;
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 4.8rem;
+}
+
+.bg-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(51, 51, 51, 0.192),
+      rgba(51, 51, 51, 0)
+    ),
+    url('img/index/dog.jpg');
+
+  background-size: cover;
+}
+
+/****************************/
+/* SECTION-FEATURES */
+/***************************/
+
+.section-features {
+  padding: 6.4rem 0;
+  background: linear-gradient(
+    to bottom right,
+    rgba(34, 94, 104, 0.628),
+    rgba(34, 94, 104, 0.167)
+  );
+}
+
+.feature-flex {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.feature {
+  padding: 1.6rem;
+  justify-self: center;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #4d6c73;
+  transition: all 0.5s;
+}
+
+.feature-img-box {
+  /* background-color: #f6be66; */
+  height: 55%;
+  width: 95%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.4rem;
+}
+
+.feature-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.feature-text {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+
+.learn-more-btn:link,
+.learn-more-btn:visited {
+  color: #f4ae40;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+
+  text-decoration: none;
+  padding: 0.8rem 0.8rem;
+  transition: 0.5s;
+}
+
+.feature:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  /* border-radius: 9px; */
+}
+
+.feature-box:hover .learn-more-btn {
+  color: #f5c373;
+  font-weight: normal;
+}
+
+.feature-img {
+  height: 14rem;
+  width: 14rem;
+  margin-bottom: 1.2rem;
+  border-radius: 50%;
+  filter: brightness(80%);
+  transition: all 0.5s;
+}
+
+.feature-img:hover {
+  transform: translateY(-5%);
+}
+
+/****************************/
+/* SECTION-PETS */
+/***************************/
+
+.pets-section {
+  background-color: #fef7ec;
+  padding: 6.4rem 0;
+  /* background: linear-gradient(to right bottom, rgba(34, 34, 34, 0.822), rgba(34, 34, 34, 0.575)); */
+}
+
+.pets-txt {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Fredoka One', cursive;
+  color: #333;
+  margin-bottom: 4.8rem;
+  text-decoration: none;
+}
+
+.pets {
+  margin-bottom: 3.2rem;
+}
+
+.pet {
+  text-align: center;
+}
+
+.pet-img {
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 2.4rem;
+  border-top: 10px solid #f4ae40;
+  border-bottom: 10px solid #f4ae40;
+}
+
+.pet-name {
+  color: #8e393d;
+  text-align: left;
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+.pet-txt {
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.1;
+}
+
+.pet-btn:link,
+.pet-btn:visited {
+  font-size: 1.8rem;
+  box-shadow: none;
+}
+
+/****************************/
+/* FEATURED IN SECTION */
+/***************************/
+
+.section-featured {
+  padding: 6.4rem 0 1.6rem 0;
+}
+
+.heading-featured-in {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  color: #333;
+  font-family: 'Fredoka One', cursive;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.logos img {
+  width: 20%;
+}
+
+/****************************/
+/* HELP SECTION */
+/***************************/
+
+.help-section {
+  text-align: center;
+  padding: 6.4rem 0;
+  background-color: #fef7ec;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.help-heading {
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
+  color: #8e393d;
+}
+
+.help-text {
+  font-size: 1.8rem;
+  width: 60%;
+  align-self: center;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+
+/****************************/
+/*ANIMAL-RESCUE-SECTION */
+/***************************/
+
+.animal-rescue-section {
+  padding: 6.4rem 0;
+}
+
+.animal-rescue-text {
+  font-size: 2rem;
+  margin-top: 3.2rem;
+  line-height: 1.2;
+}
+
+.animal-rescue-img-box {
+  text-align: center;
+  /* width: 0%; */
+}
+
+.animal-rescue-img {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.animal-rescue-list {
+  margin-top: 3.2rem;
+}
+
+.animal-rescue-list li {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+}
+
+.animal-rescue-icon {
+  color: #fff;
+  background: #8e393d;
+  border-radius: 50%;
+  padding: 0.2rem;
+}

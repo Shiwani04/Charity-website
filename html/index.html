@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Fredoka+One&family=Nunito:wght@400;500;600;700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+   
+    <div class="bg-img index">
+       
+      <header class="header">
+        <a href="#">
+          <img src="img/Happy Tails (3).png" class="logo" alt="icare logo" />
+        </a>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li><a class="main-nav-link" href="index.html">Home</a></li>
+              <li><a class="main-nav-link" href="about-us.html">About</a></li>
+              <li><a class="main-nav-link" href="pets.html">Pets</a></li>
+              <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+              <li><a class="main-nav-link" href="donation.html">Donation</a></li>
+              <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+              <li><a class="nav-donate btn" href="#form" onclick="openForm()">Donate Now!</a></li>
+          </ul>
+        </nav>
+        <button class="menu-btn">
+          <ion-icon class="menu-icon" name="menu"></ion-icon>
+          <ion-icon class="menu-icon" name="close"></ion-icon>
+        </button>
+        
+          
+        
+      </header>
+
+      <section class="hero-section">
+        <div class="hero">
+          <div class="head">
+            <h1 class="heading-primary">Do You Care?</h1>
+            <p class="we">We do.</p>
+          </div>
+          <div class="text-box">
+            <p>More than 155 pets so far found home with our help this year</p>
+          </div>
+          <a href="about-us.html" class="btn"> Join Us! </a>
+        </div>
+      </section>
+    </div>
+
+    <main>
+      <section class="section-features">
+        <div class="container feature-flex">
+          <div class="feature">
+            <div class="feature-box">
+              <div class="feature-img-box">
+                <img
+                  src="img/index/feature/adopt.jpg"
+                  alt=""
+                  class="feature-img"
+                />
+              </div>
+              <p class="feature-title">ADOPTION</p>
+
+              <p class="feature-text">
+                Visit with our pets ready for adoption. Come meet your perfect
+                match today!
+              </p>
+              <a href="pets.html" class="learn-more-btn">Learn more &rarr;</a>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-box">
+              <div class="feature-img-box">
+                <img
+                  src="img/index/feature/foster.jpg"
+                  alt=""
+                  class="feature-img"
+                />
+              </div>
+              <p class="feature-title">FOSTER</p>
+              <p class="feature-text">
+                Every year we save the lives of
+                over 500 pets. Lorem ipsum  
+              </p>
+              <a href="#" class="learn-more-btn">Learn more &rarr;</a>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-box">
+              <div class="feature-img-box">
+                <img
+                  src="img/index/feature/donate.jpg"
+                  alt=""
+                  class="feature-img"
+                />
+              </div>
+              <p class="feature-title">DONATE</p>
+              <p class="feature-text">
+                Every little bit counts! Your genereous donation helps animals
+                most in need.
+              </p>
+              <a href="donation.html" class="learn-more-btn">Learn more &rarr;</a>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-box">
+              <div class="feature-img-box">
+                <img
+                  src="img/index/feature/volunteer.jpg"
+                  alt=""
+                  class="feature-img"
+                />
+              </div>
+              <p class="feature-title">VOLUNTEER</p>
+              <p class="feature-text">
+                You can help animals that we would otherwise not be able to
+                facilitate.
+              </p>
+              <a href="#" class="learn-more-btn">Learn more &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="animal-rescue-section">
+        <div class="container grid grid--2--cols grid--center--v">
+          <div class="">
+            <h2 class="heading-secondary">
+            We're The Most Trusted Animal Rescue
+            </h2>
+              <p class="animal-rescue-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui tempore, earum iusto at ducimus saepe sed! Minus nobis facere est maxime tempora, veniam natus illum nostrum aperiam doloribus neque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi doloremque consectetur, rem aperiam a molestias qui 
+              </p>
+              <div class="flexbox">
+                <ul class="animal-rescue-list">
+                  <li>
+                    <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>
+                    Variety Of Programs
+                  </li>
+                  <li>
+                    <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>
+                    More Comfortable
+                  </li>
+                  <li>
+                    <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>
+                    Online Rescue
+                  </li>
+                  <li>
+                    <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>                
+                    Inspirational Videos
+                  </li>
+                  <li>
+                    <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>
+                    Note Taking Skills
+                  </li>
+                </ul>
+                <ul class="animal-rescue-list">
+                <li>
+                  <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>
+                  How To Be A Rescue
+                </li>
+                <li>
+                  <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>
+                  Pet Care Tips
+                </li>
+                <li>
+                  <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>
+                  Make Better Decision
+                </li>
+                <li>
+                  <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>                
+                  Network Introductions
+                </li>
+                <li>
+                  <ion-icon class="animal-rescue-icon" name="checkmark"></ion-icon>
+                  Moralities Of Everyday
+                </li>
+              </ul>
+              </div>
+          </div>  
+          <div class="animal-rescue-img-box">
+            <img class="animal-rescue-img" src="img/index/animal-rescue.jpg" alt="">
+          </div>                        
+        </div>                   
+        
+      </section>
+
+      <section class="pets-section">
+        <div class="container">
+          <h2 class="heading-secondary">Looking For a new Companion?</h2>
+          <p class="pets-txt">
+            View our featured pets and all our animals ready for adoption!
+          </p>
+          <div class="grid grid--4--cols pets">
+            <div class="pet">
+              <img class="pet-img" src="img/index/pets/pet-1.jpg" alt="" />
+
+              <h3 class="pet-name">Bosco</h3>
+              <p class="pet-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                voluptatibus placeat repudiandae voluptatum
+              </p>
+            </div>
+
+            <div class="pet">
+              <img class="pet-img" src="img/index/pets/pet-2.jpg" alt="" />
+
+              <h3 class="pet-name">Alley</h3>
+              <p class="pet-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                voluptatibus placeat repudiandae voluptatum
+              </p>
+            </div>
+
+            <div class="pet">
+              <img class="pet-img" src="img/index/pets/pet-3.jpg" alt="" />
+
+              <h3 class="pet-name">Spunky</h3>
+              <p class="pet-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                voluptatibus placeat repudiandae voluptatum
+              </p>
+            </div>
+
+            <div class="pet">
+              <img class="pet-img" src="img/index/pets/pet-4.jpg" alt="" />
+
+              <h3 class="pet-name">Luna</h3>
+              <p class="pet-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                voluptatibus placeat repudiandae voluptatum
+              </p>
+            </div>
+          </div>
+          <a href="pets.html" class="btn pet-btn"> view all our pets &rarr; </a>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">
+            Thank you to our partners whose support makes our work possible
+          </h2>
+          <div class="logos">
+            <img src="img/index/logos/logo1.png" alt="techcrunch" />
+            <img src="img/index/logos/logo2.png" alt="business-insider" />
+            <img src="img/index/logos/logo3.png" alt="the-new-york-times" />
+            <img src="img/index/logos/logo4.png" alt="forbes" />
+            <img src="img/index/logos/logo5.png" alt="usa-today" />
+          </div>
+        </div>
+      </section>
+
+      <section class="help-section">
+        <div class="container help">
+          <h3 class="help-heading">
+            Let's care for each other
+          </h3>
+          <h2 class="heading-secondary">
+            Contact Us If You Find Abandoned Animals 
+          </h2>
+          <p class="help-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia atque quidem ad eligendi iusto saepe, dignissimos enim dolore doloribus sunt dolorem 
+          </p>
+          
+            <a class="btn" href="tel: 0806562882">
+              <ion-icon name="call"></ion-icon>
+              +(91) 8038054351
+            </a>
+          
+        </div>
+      </section>
+
+      <section class="section-donation-form" id="form">
+        <button class="close-form" onclick="closeForm()">&times;</button>
+        <h2 class="cta-heading">
+            A small contribution can make a big difference🙏
+        </h2>
+       
+          <form class="donation-form cta-form" action="">
+            <div class="details">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Shiwani Singh"
+                  name="full-name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <label for="amount">Amount</label>
+              <input
+                id="amount"
+                type="text"
+                placeholder="Rs."
+                name="amount"
+                required
+              />
+            </div>
+            </div>
+            
+            <div>
+              <label for="message">Any Message:</label>
+              <textarea
+                rows="10"
+                cols="40"
+                id="message"
+                placeholder="Your Message"
+                name="message"
+              ></textarea>
+            </div>
+            <p class="join">
+              <a class="cta-btn" href="join.html">Donate</a>
+            </p>
+          </form>
+        
+      </section>
+      <div class="overlay hidden" onclick="closeForm()"></div>
+    </main>
+
+    <footer class="footer">
+      <img class="footer-logo" src="img/Happy Tails (3).png" alt="" />
+      <div class="container grid grid--footer">
+        <div class="address-col">
+          <p class="footer-heading">Company</p>
+          <address class="contacts">
+            <p class="address">
+              387, 8th Main Road, Bangalore, Karnataka,<br />India<br />
+              560055
+            </p>
+            <p>
+              <a class="footer-link" href="tel:0806562882">08065628829</a>
+              <br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@foodee.com</a
+              >
+            </p>
+          </address>
+          <ul class="social-links">
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-skype"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-vimeo"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-flex">
+          <nav class="nav-col">
+            <p class="footer-heading">Quick Links</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">About</a></li>
+              <li><a class="footer-link" href="#">Volunteer</a></li>
+              <li><a class="footer-link" href="#">All Pets</a></li>
+              <li><a class="footer-link" href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <p class="footer-heading">Our partners</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Pet Lovers</a></li>
+              <li><a class="footer-link" href="#">The Pet Nation</a></li>
+              <li><a class="footer-link" href="#">Happy Paws</a></li>
+              <li><a class="footer-link" href="#">Puppy Love</a></li>
+              <li><a class="footer-link" href="#">Paw Naturals</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+        <!-- <nav class="nav-col">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Recipe directory</a></li>
+                    <li><a class="footer-link" href="#">Help center</a></li>
+                    <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                </ul>
+            </nav> -->
+      </div>
+      <p class="copyright">
+        Copyright &copy; icare <span class="year">2022</span> All rights
+        reserved.
+      </p>
+    </footer>
+    <script src="charity.js"></script>
+  </body>
+</html>

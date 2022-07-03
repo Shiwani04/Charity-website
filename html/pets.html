@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Fredoka+One&family=Nunito:wght@400;500;600;700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="pets.css" />
+    <link rel="stylesheet" href="general.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="bg-img third">
+      <header class="header">
+        <a href="#">
+          <img src="img/Happy Tails (3).png" class="logo" alt="icare logo" />
+        </a>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li><a class="main-nav-link" href="index.html">Home</a></li>
+              <li><a class="main-nav-link" href="about-us.html">About</a></li>
+              <li><a class="main-nav-link" href="pets.html">Pets</a></li>
+              <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+              <li><a class="main-nav-link" href="donation.html">Donation</a></li>
+              <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+              <li><a class="nav-donate btn" href="#form" onclick="openForm()">Donate Now!</a></li>
+          </ul>
+        </nav>
+        <button class="menu-btn">
+          <ion-icon class="menu-icon" name="menu"></ion-icon>
+          <ion-icon class="menu-icon" name="close"></ion-icon>
+        </button>
+        
+          
+        
+      </header>
+
+      <section class="pets-section">
+        <div class="pets">
+          <div class="head">
+            <h1 class="heading-secondary yellow-color margin-bottom-sm">
+              These adorable pets
+            </h1>
+            <p class="heading-tertiary">Are waiting for you</p>
+          </div>
+          <div class="pets-text-box text-box">
+            <p>
+              Give these cats and dogs a second chance! Duis autem vel eum
+              iriure dolor in hendrerit in vulputate velit esse molestie
+              consequat, vel illum dolore eu feugiat nulla facilisis at vero
+              eros et et dolore te feugait nulla facilisi. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Morbi sollicitudin justo non
+              odio molestie, sed venenatis. Sed purus purus, tincidunt eget
+              malesuada et, molestie ut eros. Fusce blandit, sapien.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <main>
+      <section class="all-pets-section">
+        <div class="container">
+          <h2 class="heading-tertiary margin-bottom-sm">Meet Our Pets</h2>
+          <p class="pet-text">And make your choice!</p>
+          <div class="all-pets pet-grid">
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p1.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">Oliver</blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p2.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">Max</blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p3.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Luna
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p4.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Lola
+                </blockquote>
+              </div>
+            </figure>
+            
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p5.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Cooper
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p6.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Coco
+                </blockquote>
+              </div>
+            </figure>
+            
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p7.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Leo
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p8.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Ollie
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p9.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Abby
+                </blockquote>
+            </div>
+            </figure>
+            
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p10.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Belle
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p11.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Oscar
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p12.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Pixie
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p13.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Duke
+                </blockquote>
+            </div>
+            </figure>
+            
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p14.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Daisy
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p15.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Louie
+                </blockquote>
+              </div>
+            </figure>
+            <figure class="pet-box">
+              <div class="pet-img-box">
+                <img class="pet-img" src="img/pets/all-pets/p16.jpg" alt="" />
+                <div class="btn-box">
+                  <a href="#pet-form-section" class="adopt-btn">Adopt Now</a>
+                </div>
+              </div>
+              <div class="name-box">
+                <blockquote class="pet-name">
+                  Wally
+                </blockquote>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-section">
+        <div class="container">
+          <div class="grid grid--2--cols grid--center--v">
+            <div>
+              <h2 class="adopt-heading">Why you should Adopt a pet?</h2>
+              <p class="adopt-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                consectetur distinctio saepe laboriosam dignissimos qui
+                asperiores optio expedita! Quidem atque et cumque quos, deleniti
+                illum similique excepturi neque ab eius! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Omnis, sunt deserunt possimus
+                ipsum laboriosam quia dolores laborum molestias dolore inventore
+                soluta quo sit labore nisi earum quibusdam aspernatur voluptates
+                quisquam.
+              </p>
+            </div>
+
+            <img class="adopt-img" src="img/pets/New folder/adopt.jpg" alt="" />
+          </div>
+          <div class="adoption-info">
+            <h2 class="adopt-info-head">Adoption Information</h2>
+            <p class="adopt-info-text">How to adopt a pet quick and easy</p>
+
+            <div class="adopt-grid">
+              <div class="icon-box">
+                <ion-icon class="adopt-icon i1" name="help-circle"></ion-icon>
+              </div>
+              <div class="ques-ans">
+                <h3 class="question">How to adopt a pet?</h3>
+                <p class="ans">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Neque laborum fugiat amet assumenda odit eligendi vitae
+                  molestiae eum dignissimos praesentium quisquam tenetur,
+                  distinctio nulla similique quis tempora dolores voluptate
+                  commodi!
+                </p>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon
+                  class="adopt-icon i2"
+                  name="checkmark-circle"
+                ></ion-icon>
+              </div>
+              <div class="ques-ans">
+                <h3 class="question">
+                  What are the requirements to adopt a pet?
+                </h3>
+                <p class="ans">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  beatae, tenetur ut maxime commodi officia atque molestiae odio
+                  earum sed amet omnis vitae sapiente vel quasi iusto voluptas
+                  nobis. Sint?
+                </p>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon class="adopt-icon i3" name="paw"></ion-icon>
+              </div>
+              <div class="ques-ans">
+                <h3 class="question">How to avoid picking the wrong pet?</h3>
+                <p class="ans">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  beatae, tenetur ut maxime commodi officia atque molestiae odio
+                  earum sed amet omnis vitae sapiente vel quasi iusto voluptas
+                  nobis. Sint?
+                </p>
+              </div>
+
+              <div class="icon-box">
+                <ion-icon class="adopt-icon i4" name="medkit"></ion-icon>
+              </div>
+              <div class="ques-ans">
+                <h3 class="question">Are pet for adoption healthy?</h3>
+                <p class="ans">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  beatae, tenetur ut maxime commodi officia atque molestiae odio
+                  earum sed amet omnis vitae sapiente vel quasi iusto voluptas
+                  nobis. Sint?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="pet-form-section">
+        <div class="container">
+          <div class="cta-grid grid grid--2--cols">
+            <div class="cta">
+              <h2 class="cta-heading">Ready to adopt a pet?</h2>
+              <p class="cta-text">Contact Us for details</p>
+
+              <form class="cta-form" action="">
+                <div class="details">
+                  <div>
+                    <label for="full-name">Full Name</label>
+                    <input
+                      id="full-name"
+                      type="text"
+                      placeholder="Shiwani Singh"
+                      name="full-name"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="email">Email address</label>
+                    <input
+                      id="email"
+                      type="email"
+                      placeholder="me@example.com"
+                      name="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label for="select-breed">Pet Type</label>
+                  <select
+                    name=""
+                    id="select-breed"
+                    name="select-breed"
+                    required
+                  >
+                    <option value="">Please chose one option</option>
+                    <option value="friends">Cat Breed</option>
+                    <option value="youtube">Dog Breed</option>
+                    <option value="podcast">Mix</option>
+                    <option value="ad">Any</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="full-name">Pet Breed</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Breed of dog/cat"
+                    name="full-name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="message">Message</label>
+                  <textarea
+                    rows="10"
+                    cols="40"
+                    id="message"
+                    placeholder="Write a Message"
+                    name="message"
+                  ></textarea>
+                </div>
+                <p class="join">
+                  <a class="cta-btn" href="join.html">Submit</a>
+                </p>
+              </form>
+            </div>
+            <div class="cta-img-box">
+              <img class="cta-img" src="img/pets/adopt-form.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="donate-cta">
+            <form action=""></form>
+          </div>
+        </div>
+      </section>
+      <section class="section-donation-form" id="form">
+        <button class="close-form" onclick="closeForm()">&times;</button>
+        <h2 class="cta-heading">
+            A small contribution can make a big difference🙏
+        </h2>
+       
+          <form class=" donation-form cta-form" action="">
+            <div class="details">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Shiwani Singh"
+                  name="full-name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <label for="amount">Amount</label>
+              <input
+                id="amount"
+                type="text"
+                placeholder="Rs."
+                name="amount"
+                required
+              />
+            </div>
+            </div>
+            
+            <div>
+              <label for="message">Any Message:</label>
+              <textarea
+                rows="10"
+                cols="40"
+                id="message"
+                placeholder="Your Message"
+                name="message"
+              ></textarea>
+            </div>
+            <p class="join">
+              <a class="cta-btn" href="join.html">Donate</a>
+            </p>
+          </form>
+        
+      </section>
+      <div class="overlay hidden" onclick="closeForm()"></div>
+    </main>
+
+    <footer class="footer">
+      <img class="footer-logo" src="img/Happy Tails (3).png" alt="" />
+      <div class="container grid grid--footer">
+        <div class="address-col">
+          <p class="footer-heading">Company</p>
+          <address class="contacts">
+            <p class="address">
+              387, 8th Main Road, Bangalore, Karnataka,<br />India<br />
+              560055
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">08065628829</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@foodee.com</a
+              >
+            </p>
+          </address>
+          <ul class="social-links">
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-skype"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-link">
+                <ion-icon class="footer-icon" name="logo-vimeo"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-flex">
+          <nav class="nav-col">
+            <p class="footer-heading">Quick Links</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">About</a></li>
+              <li><a class="footer-link" href="#">Volunteer</a></li>
+              <li><a class="footer-link" href="#">All Pets</a></li>
+              <li><a class="footer-link" href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <p class="footer-heading">Our partners</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Pet Lovers</a></li>
+              <li><a class="footer-link" href="#">The Pet Nation</a></li>
+              <li><a class="footer-link" href="#">Happy Paws</a></li>
+              <li><a class="footer-link" href="#">Puppy Love</a></li>
+              <li><a class="footer-link" href="#">Paw Naturals</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <nav class="nav-col">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Recipe directory</a></li>
+                    <li><a class="footer-link" href="#">Help center</a></li>
+                    <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                </ul>
+            </nav> -->
+      </div>
+      <p class="copyright">
+        Copyright &copy; icare <span class="year">2022</span> All rights
+        reserved.
+      </p>
+    </footer>
+    <script src="charity.js"></script>
+  </body>
+</html>

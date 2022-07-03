@@ -1,0 +1,445 @@
+.bg-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(51, 51, 51, 0.192),
+      rgba(51, 51, 51, 0)
+    ),
+    url("img/about-us/about.jpg");
+  background-size: cover;
+}
+
+/****************************/
+/* INTRODUCTION */
+/***************************/
+
+.intro-section {
+  padding: 6.4rem 0;
+}
+
+.intro-txt {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  width: 30%;
+  color: #fff;
+  margin-bottom: 3.2rem;
+}
+
+/****************************/
+/* ABOUT US */
+/***************************/
+
+.about-section {
+  padding: 6.4rem 0;
+  background-color: rgba(153, 153, 153, 0.11);
+}
+
+.about-heading {
+  font-size: 3.6rem;
+  color: #333;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 1.6rem;
+}
+
+.info {
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+  color: #8e393d;
+  margin-bottom: 3.2rem;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  column-gap: 2.4rem;
+}
+
+.about-img-box {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.8rem;
+  row-gap: 0.8rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-img {
+  overflow: hidden;
+}
+
+.about-img img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+  overflow: hidden;
+}
+
+.about-img img:hover {
+  transform: scale(1.1);
+}
+
+.intro1 {
+  align-self: end;
+}
+
+.intro2 {
+  align-self: start;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.org-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 1.2rem;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 3.2rem;
+}
+
+.about-txt {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: #333;
+  font-weight: 400;
+}
+
+/****************************/
+/* TEAM SECTION */
+/***************************/
+
+.team-section {
+  padding: 6.4rem 0;
+}
+
+.team-heading {
+  font-size: 3.6rem;
+  font-family: "Fredoka One", cursive;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.teams {
+  display: grid;
+  column-gap: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.team {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.team-content {
+  padding: 2.4rem;
+}
+
+.team-img {
+  width: 100%;
+}
+
+.team-name {
+  color: #8e393d;
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.team-occupation {
+  font-size: 1.4rem;
+  color: #777;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.team-txt {
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+/****************************/
+/* ACHIEVEMENT SECTION */
+/***************************/
+
+.section-achievement {
+  padding: 6.4rem 0;
+  background-color: rgba(153, 153, 153, 0.11);
+}
+
+.achievements {
+  text-align: center;
+}
+
+.achievement-img {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
+}
+
+.achievement {
+  color: #333;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}
+
+.num {
+  font-size: 3.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.achievement-txt {
+  font-size: 2rem;
+  /* text-transform: uppercase; */
+}
+
+/****************************/
+/* GOALS SECTION */
+/***************************/
+
+.section-goals {
+  padding: 6.4rem 0 8rem 0;
+}
+
+.goals-heading {
+  font-size: 4.4rem;
+  color: #333;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 4.8rem;
+}
+
+.goal-img-box {
+  align-self: center;
+}
+
+.goal-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.goal-head {
+  align-self: center;
+}
+
+.goals {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.goal {
+  font-size: 2rem;
+  display: flex;
+  gap: 1.6rem;
+  padding: 1.2rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.g1 {
+  background-color: #6d0202;
+  color: #fff;
+  width: 83%;
+}
+
+.g2 {
+  background-color: #8e393d;
+  color: #fff;
+  width: 94%;
+}
+
+.g3 {
+  background-color: #6c747f;
+  color: #fff;
+  width: 75%;
+}
+
+.g4 {
+  background-color: #3d3d3d;
+  color: #fff;
+  width: 63%;
+}
+
+.g5 {
+  background-color: #e9a945;
+  color: #fff;
+  width: 97%;
+}
+
+.goal-txt {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+/****************************/
+/* TESTIMONIAL SECTION */
+/***************************/
+
+.section-testimonial {
+  padding: 6.4rem 0;
+  background-color: #fef7ec;
+}
+
+.testimonials-heading {
+  font-size: 4.8rem;
+  color: #333;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 2.4rem;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.testimonial-content {
+  padding: 2.4rem;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-head {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-bottom: 1.6rem;
+  /* padding: 2.4rem; */
+  text-align: center;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #666262;
+}
+
+/****************************/
+/* CTA SECTION */
+/***************************/
+
+.section-cta {
+  padding: 6.4rem 0;
+}
+
+.cta-heading {
+  font-size: 3.6rem;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: rem;
+}
+.cta-text {
+  font-size: 2.4rem;
+  font-family: "Fredoka One", cursive;
+  color: #8e393d;
+  margin-bottom: 3.2rem;
+}
+
+.cta-form {
+  align-self: center;
+  width: 100%;
+}
+
+.details {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(136, 136, 136, 0.11);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form textarea {
+  width: 100%;
+  height: 40%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(136, 136, 136, 0.11);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta-btn:link,
+.cta-btn:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  background-color: #8e393d;
+  padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.cta-btn:hover,
+.cta-btn:active {
+  background-color: #722e31;
+}
+
+.cta-img-box {
+  align-self: center;
+}
+
+.cta-img {
+  width: 100%;
+  border-radius: 5px;
+}

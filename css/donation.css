@@ -1,0 +1,84 @@
+.bg-img {
+    background-image: linear-gradient(to right, rgba(51, 51, 51, 0.247), rgba(51, 51, 51, 0.123)), url('img/donation/donation.jpg');
+    background-size: cover;
+}
+
+/****************************/
+/* DONATION SECTION */
+/***************************/
+
+.donation-section {
+    padding: 6.4rem 0;
+}
+
+.text-box {
+    width: 50%;
+}
+
+/****************************/
+/* DONATION INFO SECTION */
+/***************************/
+
+.donation-info-section {
+    padding: 6.4rem 0;
+}
+
+.donation-img-box {
+    align-self: center;
+}
+
+.donation-img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.donation-text-box {
+    align-self: center;
+}
+
+.donation-text {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 1.6rem;
+}
+
+/****************************/
+/* DONATION YEARS */
+/***************************/
+
+.donation-yrs {
+    padding: 6.4rem 0;
+    text-align: center;
+    background-color: #fef7ec;
+}
+
+.year-box {
+    text-align: center;
+    margin-top: 2.4rem;
+}
+
+.year-logo {
+    font-size: 4.4rem;
+    color: #fff;
+    background-color: #8e393d;
+    padding: 1.6rem;
+    margin-bottom: 1.6rem;
+    border-radius: 50%;
+}
+
+.year-amt{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+.year {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+}
+
+.year-text {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
